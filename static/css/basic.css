@@ -1,0 +1,16 @@
+#btn-to-top {
+  position: fixed;
+  bottom: 6rem;
+  right: 3rem;
+  display: none;
+  border-radius: 50%;
+}
+
+a, small {
+  text-decoration: none !important;
+}
+
+.about {
+  background:no-repeat center/100% url("../../img/bg/bg03.jpg");
+  height: 50vh;
+}
