@@ -12,5 +12,30 @@ a, small {
 
 .about {
   background:no-repeat center/100% url("../../img/bg/bg03.jpg");
+  background-blend-mode: lighten;
   height: 50vh;
+}
+
+.team {
+  background:no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+.min-max-400 {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.about-card01 {
+  background:no-repeat center url("../../img/bg/bg06.jpg");
+}
+.about-card02 {
+  background:no-repeat center url("../../img/bg/bg04.jpg");
+}
+.about-card03 {
+  background:no-repeat center url("../../img/bg/bg05.jpg");
+}
+.about-card04 {
+  background:no-repeat center url("../../img/bg/bg02.jpg");
 }
