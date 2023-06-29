@@ -5,7 +5,13 @@
   box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.5);
   transform: scale(1.05);
 }
-
+/* S : dropdown */
 .dropdown:hover, .dropdown-item:hover {
   font-weight: bolder;
 }
+/* E : dropdown */
+/* S : AGENCY CSS */
+.agency-item:hover {
+  box-shadow: 0 0 2rem rgba(0,0,0,1);
+}
+/* E : AGENCY CSS */

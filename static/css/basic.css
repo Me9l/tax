@@ -1,3 +1,5 @@
+/* S : Global CSS */
+
 #btn-to-top {
   position: fixed;
   bottom: 6rem;
@@ -10,21 +12,20 @@ a, small {
   text-decoration: none !important;
 }
 
+.min-max-400 {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+/* E : Global CSS */
+
+
+/* S : About CSS */
+
 .about {
   background:no-repeat center/100% url("../../img/bg/bg03.jpg");
   background-blend-mode: lighten;
   height: 50vh;
-}
-
-.team {
-  background:no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
-  background-blend-mode: lighten;
-  height: 50vh;
-}
-
-.min-max-400 {
-  min-height: 400px;
-  max-height: 400px;
 }
 
 .about-card01 {
@@ -39,3 +40,83 @@ a, small {
 .about-card04 {
   background:no-repeat center url("../../img/bg/bg02.jpg");
 }
+
+/* E : About CSS */
+
+
+/* S : CLAIM CSS */
+
+.claim {
+  background:no-repeat center/100% url("../../img/bg/bg03.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+.claim-01 {
+  background:no-repeat center/100% url("../../img/bg/bg03.jpg") fixed;
+  background-blend-mode: lighten;
+}
+/* E : CLAIM CSS */
+
+/* S : AGENCY CSS */
+
+.agency {
+  background:no-repeat center/100% url("../../img/bg/bg05.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+.agency-01 {
+  background:no-repeat center/100% url("../../img/bg/bg05.jpg") fixed;
+  background-blend-mode: lighten;
+}
+/* E : CLAIM CSS */
+
+
+/* S : TEAM CSS */
+
+.team {
+  background:no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+.team-info{
+  box-shadow: 0rem 0rem 0.2rem rgba(0,0,0,1);
+}
+/* E : TEAM CSS */
+
+
+/* S : BreadCrumb CSS */
+
+.breadcrumb-custom .breadcrumb-item {
+  position: relative;
+  flex-grow: 1;
+  padding: .75rem 3rem;
+}
+.breadcrumb-custom .breadcrumb-item::before {
+  display: none;
+}
+.breadcrumb-custom .breadcrumb-item::after {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  content: "";
+  border-top-right-radius: .5rem;
+  transform: scale(.707) rotate(45deg);
+}
+.breadcrumb-custom .breadcrumb-item:first-child {
+  padding-left: 1.5rem;
+}
+.breadcrumb-custom .breadcrumb-item:last-child {
+  padding-right: 1.5rem;
+}
+.breadcrumb-custom .breadcrumb-item:last-child::after {
+  display: none;
+}
+
+/* E : BreadCrumb CSS */
