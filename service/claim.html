@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TAX-SMITH</title>
-  <link rel="stylesheet" href="./static/css/basic.css">
-  <link rel="stylesheet" href="./static/css/hovers.css">
+  <link rel="stylesheet" href="../static/css/basic.css">
+  <link rel="stylesheet" href="../static/css/hovers.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
@@ -30,6 +30,9 @@
     <symbol id="arrowup" viewBox="0 0 16 16">
       <path d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
     </symbol>
+    <symbol id="house" viewBox="0 0 16 16">
+      <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+    </symbol>
   </svg>
 
   <!-- s : whole container -->
@@ -38,8 +41,8 @@
     <!-- s : header nav -->
     <header>
       <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="./index.html">
-          <img src="./img/logo.png" alt="Logo" width="120" height="60" class="d-inline-block">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.png" alt="Logo" width="120" height="60" class="d-inline-block">
           세무스미스
         </a>
         <!-- s : hamberger button -->
@@ -54,8 +57,8 @@
                 회사소개
               </a>
               <ul class="dropdown-menu shadow">
-                <li><a class="dropdown-item" href="./about.html">인사말</a></li>
-                <li><a class="dropdown-item" href="./team.html">구성원</a></li>
+                <li><a class="dropdown-item" href="../about.html">인사말</a></li>
+                <li><a class="dropdown-item" href="../team.html">구성원</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown mx-1">
@@ -93,109 +96,118 @@
     <!-- s : main area -->
     <main>
 
-      <!-- s : image slide -->
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="./img/slide01.jpg" class="d-block w-100" alt="slide">
-            <div class="carousel-caption d-md-block">
-              <h3>세무 해결</h3>
-              <p>세무스미스와 함께</p>
-              <a href="#" class="btn btn-light">상담하기</a>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="./img/slide02.jpg" class="d-block w-100" alt="slide">
-            <div class="carousel-caption d-md-block">
-              <h3>세무 해결</h3>
-              <p>세무스미스와 함께</p>
-              <a href="#" class="btn btn-light">상담하기</a>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="./img/slide04.jpg" class="d-block w-100" alt="slide">
-            <div class="carousel-caption d-md-block">
-              <h3>세무 해결</h3>
-              <p>세무스미스와 함께</p>
-              <a href="#" class="btn btn-light">상담하기</a>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- e : image slide -->
-
-      <!-- s : card group -->
-      <div>
-        <div class="row text-center m-1 p-5">
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./img/service_thum01.png" alt="thumbnail">
-              <div class="card-body">
-                <h4 class="card-title">세무사 소개</h4>
-                <p class="card-text">믿을수 있는<br/> 세무서비스</p>
-                <a href="#" class="btn btn-secondary">상세보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./img/service_thum02.png" alt="thumbnail">
-              <div class="card-body">
-                <h4 class="card-title">서비스 안내</h4>
-                <p class="card-text">다양한 세무서비스를<br/>최고의 인재와 함께</p>
-                <a href="#" class="btn btn-secondary">상세보기</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./img/service_thum03.png" alt="thumbnail">
-              <div class="card-body">
-                <h4 class="card-title">이달의 세무</h4>
-                <p class="card-text">세무소식을<br/>쉽고 빠르게</p>
-                <a href="#" class="btn btn-secondary">상세보기</a>
-              </div>
-            </div>
-          </div>
+      <div class="claim d-flex align-items-center justify-content-center bg-body-secondary bg-opacity-50">
+        <div class="text-center">
+          <h4 class="fw-bold">경정 청구</h4>
+          <small class="fw-light">절세 해결</small>
         </div>
       </div>
-      <!-- e : card group -->
 
-      <div class="row align-items-md-stretch m-5">
-        <div class="col-md-6">
-          <div class="h-80 p-3 text-bg-dark">
-            <h3>[공지사항]</h3>
-            <p>상담 게시판을 이용하시려면 로그인 하세요.</p>
-            <a href="#"><small>Read More...</small></a>
-          </div>
+      <div class="container my-5">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center bg-body-tertiary border rounded-3">
+            <li class="breadcrumb-item" aria-current="page">
+                경정청구
+            </li>
+            <li class="breadcrumb-item">
+              <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">
+                기장/신고
+              </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">
+                컨설팅
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="claim-01 text-center m-3 p-3">
+        <h4 class="fw-bold">여러분이 못 받았던 환급 가능 세액을 받아드립니다.</h4>
+      </div>
+
+      <div class="text-center">
+        <h3>경정청구란?</h3>
+        <p>경정청구는 받을 수 있는 감면, 공제 등을 누락하여<br/>
+          더 납부하신 세금을 법에 따라 수정하여 환급을 청구하는 제도입니다.</p>
+      </div>
+
+      <div class="container">
+        <div class="text-center">
+          <h3>경정청구 진행 절차</h3>
+          <img class="bg-secondary" src="../img/process.png" style="width: 100%;" alt="process">
+          <p>경정청구 진단 서비스는<br/>
+            100% 무료로 제공됩니다.</p>
         </div>
-        <div class="col-md-6">
-          <div class="h-80 p-3 bg-body-secondary border">
-            <h3>온라인 상담</h3>
-            <p>궁금하신 세무 업무를 상담해드립니다.</p>
-            <span>온라인 상담</span>
-          </div>
+        <div class="text-center border-top p-3">
+          <h3>세무조사 NO !</h3>
+          <p>경정청구는 국세기본법 81조 4(세무조사권 남용 금지)에 따라<br/>
+            열거하고 있는 사유에 해당하지 않으므로 세무조사 대상이 될 수 없습니다.</p>
         </div>
-        <div class="col-md-6">
-          <div class="h-80 p-3 bg-body-tertiary border">
-            <h3>[정책자금]</h3>
-            <p>회사 운영비용이 필요하신가요? 정책자금을 확인하세요.</p>
-            <a href="#"><small>Read More...</small></a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="h-80 p-3">
-            <h3>고객센터</h3>
-            <p>궁금하신 사항은 아래로 문의 해주세요.</p>
-            <span>전화 : 02-0000-0000</span>
+        <div>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <h3>자주하는 질문</h3>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                  Q. 직원이 1~2명인데 저희 사업장은 세금환급이 가능할까요?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <span>A. 상시근로자 증감에 따라 1명당 최대 12백만원까지 공제가 가능하기에 환급이 가능합니다.</span>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Q. 저희 사업장은 매년 4~5명씩 동일하게 유지하고 있는데, 세금 변동 사항이 있을까요?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <span>A. 상시근로자는 매년 말 기준이 아닌 평균 상시근로자를 기준으로 산정하기에 동일하게 유지하신다해도 그 안에서 변동이 존재할 수 있습니다.</span>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Q. 세무사 사무실을 이용하는데 추가적으로 공제받을게 있을까요?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <span>A. 대표님께서 이용하시는 세무사 사무실의 주 업무는 장부를 작성하고 신고를 진행해주는 것입니다. 세무회계 샘밀은 개정세법 및 과거에 사후관리라는 위험성 때문에 적용하지 못한 부분을 소급하여 적용해드리기에 공제 받으실 부분이 많이 존재합니다.</span>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Q. 저희는 낸 세금이 그리 많지 않고 근로자도 없는데 공제받을 수 있는 부분이 있을까요?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <span>A. 근로자를 고용하신 적이 존재하거나, 사업 업종에 따른 공제를 놓치시는 부분이 존재하시다면 공제받으실 수 있는 세금은 반드시 존재합니다.</span>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                  Q. 기장세무사 사무실 측에 자료를 요청하기가 많이 부담스러워요.
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <span>A. 온라인 상담을 통해 기장세무사 사무실에 자료요청없이 환급금액 확인이 가능합니다.</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -284,6 +296,6 @@
   <!-- e : whole container -->
 </body>
 
-<script src="./static/js/javaScript.js"></script>
+<script src="../static/js/javaScript.js"></script>
 
 </html>
