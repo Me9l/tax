@@ -44,6 +44,30 @@ small {
 /* E : About CSS */
 
 
+/* S : TEAM CSS */
+.team {
+  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+.team-info {
+  box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 1);
+}
+/* E : TEAM CSS */
+
+
+/* S : INQUIRY CSS */
+
+.inquiry {
+  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+/* E : INQUIRY CSS */
+
+
 /* S : CLAIM CSS */
 .claim {
   background: no-repeat center/100% url("../../img/bg/bg03.jpg") fixed;
@@ -82,28 +106,37 @@ small {
 /* E : CONSULTING CSS */
 
 
-/* S : TEAM CSS */
-.team {
-  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+/* S : DATA CSS */
+
+.boardData {
+  background: no-repeat center/140% url("../../img/bg/bg04.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
 
-.team-info {
-  box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 1);
-}
-/* E : TEAM CSS */
+/* E : DATA CSS */
 
 
-/* S : INQUIRY CSS */
+/* S : INSIDE CSS */
 
-.inquiry {
-  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+.boardInside {
+  background: no-repeat center/140% url("../../img/bg/bg07.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
 
-/* E : INQUIRY CSS */
+/* E : INSIDE CSS */
+
+
+/* S : NEWS CSS */
+
+.boardNews {
+  background: no-repeat center/140% url("../../img/bg/bg02.jpg");
+  background-blend-mode: lighten;
+  height: 50vh;
+}
+
+/* E : NEWS CSS */
 
 
 /* S : BreadCrumb CSS */
