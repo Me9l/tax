@@ -1,3 +1,5 @@
+// S : TOP BUTTON
+
 let btnToTop = document.getElementById("btn-to-top");
 
 window.onscroll = function () {
@@ -21,3 +23,5 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// E : TOP BUTTON
