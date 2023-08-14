@@ -21,7 +21,7 @@ small {
 
 /* S : About CSS */
 .about {
-  background: no-repeat center/100% url("../../img/bg/bg03.jpg");
+  background: no-repeat center/200% url("../../img/bg/bg03.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -46,7 +46,7 @@ small {
 
 /* S : TEAM CSS */
 .team {
-  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg01.jpg") fixed;
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -60,7 +60,7 @@ small {
 /* S : INQUIRY CSS */
 
 .inquiry {
-  background: no-repeat center/200% url("../../img/bg/bg01.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg01.jpg") fixed;
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -70,13 +70,13 @@ small {
 
 /* S : CLAIM CSS */
 .claim {
-  background: no-repeat center/100% url("../../img/bg/bg03.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg03.jpg") fixed;
   background-blend-mode: lighten;
   height: 50vh;
 }
 
 .claim-01 {
-  background: no-repeat center/100% url("../../img/bg/bg03.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg03.jpg") fixed;
   background-blend-mode: lighten;
 }
 /* E : CLAIM CSS */
@@ -84,13 +84,13 @@ small {
 
 /* S : AGENCY CSS */
 .agency {
-  background: no-repeat center/100% url("../../img/bg/bg05.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg05.jpg") fixed;
   background-blend-mode: lighten;
   height: 50vh;
 }
 
 .agency-01 {
-  background: no-repeat center/100% url("../../img/bg/bg05.jpg") fixed;
+  background: no-repeat center/300% url("../../img/bg/bg05.jpg") fixed;
   background-blend-mode: lighten;
 }
 /* E : AGENCY CSS */
@@ -98,7 +98,7 @@ small {
 
 /* S : CONSULTING CSS */
 .consulting {
-  background: no-repeat center/140% url("../../img/bg/bg02.jpg");
+  background: no-repeat center/180% url("../../img/bg/bg02.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -109,7 +109,7 @@ small {
 /* S : DATA CSS */
 
 .boardData {
-  background: no-repeat center/140% url("../../img/bg/bg04.jpg");
+  background: no-repeat center/180% url("../../img/bg/bg04.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -120,7 +120,7 @@ small {
 /* S : INSIDE CSS */
 
 .boardInside {
-  background: no-repeat center/140% url("../../img/bg/bg07.jpg");
+  background: no-repeat center/180% url("../../img/bg/bg07.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
@@ -131,7 +131,7 @@ small {
 /* S : NEWS CSS */
 
 .boardNews {
-  background: no-repeat center/140% url("../../img/bg/bg02.jpg");
+  background: no-repeat center/180% url("../../img/bg/bg02.jpg");
   background-blend-mode: lighten;
   height: 50vh;
 }
